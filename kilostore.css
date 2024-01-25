@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: golos;
+    src: url(static/GolosText-Regular.ttf);
+}
+
+body {
+    max-height: 667px;
+    max-width: 375px;
+    background-image: url("asset7.png");
+    background-repeat: repeat;
+    color: #faf5be;
+    font-family: golos;
+}
+
+header {
+    text-align: center;
+    background-size: auto;
+    background-color: rgba(240, 179, 87, 0.8);
+    padding: 15px;
+    margin: 20px 20px 0px 20px;
+    border-radius: 20px;
+}
+
+header img {
+    height: 60px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    border-radius: 80px;
+    margin: 40px 10px 0px 10px;
+}
+
+.title p {
+    margin: 15px 0px 0px 0px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.text {
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgba(221, 80, 65, 0.7);
+    border-radius: 150px 150px 00px 0px;
+}
+
+.main {
+    width: 280px;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.text div p {
+    margin: 0px 10px 10px 10px;
+}
+
+.text div img {
+    width: 140px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 60px;
+}
+
+.text ul li a {
+    padding: 10px;
+    background-color: rgba(221, 80, 65, 1);
+    margin: 10px 5px 10px 5px;
+    color: #faf5be;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text ul {
+    margin: 30px 10px 30px 10px;
+    text-align: center;
+}
+
+.text h2{
+    margin: 15px;
+}
+
+.text h3 {
+    text-align: left;
+    margin: 15px;
+}
+
+.text p{
+    text-align: left;
+    margin: 10px 0px 10px 20px;
+}
+
+#front {
+    width: 250px;
+    padding: 20px;
+}
+
+ol {
+    list-style: none;
+    overflow: hidden;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.flex{
+ display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+}
+
+ul li a {
+    font-size: 16px;
+    color: #faf5be;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a img {
+    width: 23px;
+    height: 23px;
+}
+
+footer {
+    background-color: #dd5041;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #faf5be;
+    padding: 15px;
+}
